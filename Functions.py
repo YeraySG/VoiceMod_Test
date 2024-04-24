@@ -21,7 +21,7 @@ def cleanAudio (dirtySignal,whiteNoise):
 
     sf.write(cleanSignal,filteredSignal,whiteSamplerate)
 
-    return cleanSignal, whiteSamplerate
+    return cleanSignal
 
 def plotSpectrum(audio):
     data, sr = sf.read(audio)

@@ -4,9 +4,9 @@ Main file
 Yeray SG
 """
 from Functions import cleanAudio, plotSpectrum
-
-challengeAudio = "C:/Users/Yeray/Desktop/VoiceModTest/Challenge.wav"
-whiteNoiseAudio = "C:/Users/Yeray/Desktop/VoiceModTest/whiteNoiseMono.wav"
+# These paths should be updated before running the code  
+challengeAudio = "C:/Users/XXX/Desktop/VoiceModTest/Challenge.wav" 
+whiteNoiseAudio = "C:/Users/XXX/Desktop/VoiceModTest/whiteNoiseMono.wav"
 
 decodedSignal = cleanAudio(challengeAudio,whiteNoiseAudio)
 plotSpectrum(decodedSignal)
